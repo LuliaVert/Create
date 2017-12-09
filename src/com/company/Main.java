@@ -19,7 +19,7 @@ public class Main {
                 if (!file.exists()) {
                     file.createNewFile();
                 }
-
+//sss
                 FileWriter fw = new FileWriter(file.getAbsoluteFile());
                 BufferedWriter bw = new BufferedWriter(fw);
 
